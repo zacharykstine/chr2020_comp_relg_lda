@@ -93,8 +93,7 @@ if __name__ == '__main__':
             topic_modeling.write_top_words(model, model_dir, k, num_words=100)
 
             # Create document-topic matrix using the regular corpus (not the shuffled corpus).
-            topic_dist_dir = os.path.join(model_dir, 'topic_dists')
-            corpus_processing.create_dir(topic_dist_dir)
+            topic_dist_dir = corpus_processing.make_dir(os.path.join(model_dir, 'topic_dists'))
             doc_topics_path = os.path.join(topic_dist_dir, subreddit + '_tdists.txt')
             doc_topics = topic_modeling.write_and_return_topic_dists_memory_friendly(model, corpus, k, doc_topics_path)
 
