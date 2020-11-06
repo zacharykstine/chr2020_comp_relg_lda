@@ -76,8 +76,7 @@ if __name__ == '__main__':
         subr_corpus = corpus_processing.MyCorpus(merged_dictionary, doc_paths, stoplist, ignore_users)
 
         # Make a subreddit-specific directory in corpora_dir.
-        subr_corpus_dir = os.path.join(corpora_dir, subreddit)
-        corpus_processing.create_dir(subr_corpus_dir)
+        subr_corpus_dir = corpus_processing.make_dir(os.path.join(corpora_dir, subreddit))
 
         # Save the corpus object in the new directory.
         subr_corpus_path = os.path.join(subr_corpus_dir, 'corpus.mm')
