@@ -1,0 +1,8 @@
+AutoModerator,
+ChristianityBot,
+autowikibot,
+WikiTextBot,
+VerseBot,
+autotldr,
+HelperBot_,
+WikiTextBot
