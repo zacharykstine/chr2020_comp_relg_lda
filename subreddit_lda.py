@@ -1,7 +1,8 @@
 """
+# Zachary Kimo Stine | zkstine@ualr.edu
+# 2020-06-24, updated 2020-11-06
 #
-#
-#
+# Train topic models for each subreddit specified.
 """
 import os
 import numpy as np
