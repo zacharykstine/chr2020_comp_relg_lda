@@ -14,7 +14,6 @@ import os
 import topic_modeling
 import corpus_processing
 import numpy as np
-import comparison_functions as comparisons
 import info_measures as info
 import csv
 
