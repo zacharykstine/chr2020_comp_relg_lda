@@ -1,7 +1,7 @@
 """
-# Zachary K. Stine | zkstine@ualr.edu
-# Last updated 2020-06-23
-@
+# Zachary Kimo Stine | zkstine@ualr.edu
+# 2020-06-23, updated 2020-11-06
+#
 # This script takes the raw data for r/Buddhism, r/Christianity, r/religion, and r/math, and  creates a gensim
 # dictionary object that can be used across each subreddit, and creates gensim bag-of-word objects for each subreddit.
 """
